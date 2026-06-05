@@ -1008,5 +1008,20 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModalBtn();clo
 </script>
 </body>
 </html>
+
 HTMLEOF
 echo "Done. File size: $(wc -c < /mnt/user-data/outputs/streamvault.html) bytes"
+{
+  title: "My YouTube Video",
+  source: "youtube",
+  src: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+  thumb: "https://img.youtube.com/vi/YOUR_VIDEO_ID/mqdefault.jpg",
+  meta: "Your channel name"
+}
+{
+  title: "My Video",
+  source: "mp4",
+  src: "videos/my-video.mp4",
+  thumb: "images/my-thumb.jpg",
+  meta: "Some description"
+}
