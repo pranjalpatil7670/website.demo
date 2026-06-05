@@ -1,5 +1,5 @@
 # website.demo
-This is my first website
+<i><b>Welcome to our website</b></i>
 cat > /mnt/user-data/outputs/streamvault.html << 'HTMLEOF'
 <!DOCTYPE html>
 <html lang="en">
