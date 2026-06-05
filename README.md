@@ -1007,6 +1007,41 @@ function setActive(el){const parent=el.closest('.genre-tags');if(parent){parent.
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModalBtn();closeSearch();}});
 </script>
 </body>
+<div style="max-width:800px; margin:40px auto; padding:20px;">
+  <h2 style="color:white; margin-bottom:20px;">🎬 Videos</h2>
+
+  <!-- VIDEO 1 - src="https://www.youtube.com/embed/xvFZjo5PgG0"
+  <div style="margin-bottom:30px;">
+    <h3 style="color:#ccc; margin-bottom:10px;">Video 1 ka Title</h3>
+    <iframe width="100%" height="400"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      
+      allowfullscreen
+      style="border:none; border-radius:10px;">
+    </iframe>
+  </div>
+
+  <!-- VIDEO 2 -->src="https://www.youtube.com/embed/V-_O7nl0Ii0"
+  <div style="margin-bottom:30px;">
+    <h3 style="color:#ccc; margin-bottom:10px;">Video 2 ka Title</h3>
+    <iframe width="100%" height="400"
+      src="https://www.youtube.com/embed/aqz-KE-bpKQ"
+      allowfullscreen
+      style="border:none; border-radius:10px;">
+    </iframe>
+  </div>
+
+  <!-- VIDEO 3 -->src="https://www.youtube.com/embed/JGwWNGJdvx8"
+  <div style="margin-bottom:30px;">
+    <h3 style="color:#ccc; margin-bottom:10px;">Video 3 ka Title</h3>
+    <iframe width="100%" height="400"
+      src="https://www.youtube.com/embed/V-_O7nl0Ii0"
+      allowfullscreen
+      style="border:none; border-radius:10px;">
+    </iframe>
+  </div>
+
+</div>
 </html>
 
 HTMLEOF
