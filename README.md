@@ -1,4 +1,4 @@
-<i># website.demo</i>
+# website.demo
 <i><b>Welcome to our website</b></i>
 cat > /mnt/user-data/outputs/streamvault.html << 'HTMLEOF'
 <!DOCTYPE html>
