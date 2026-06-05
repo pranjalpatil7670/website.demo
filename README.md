@@ -1010,3 +1010,88 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModalBtn();clo
 </html>
 HTMLEOF
 echo "Done. File size: $(wc -c < /mnt/user-data/outputs/streamvault.html) bytes"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyFlix</title>
+
+<style>
+body{
+    margin:0;
+    background:#141414;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    background:black;
+    padding:15px 30px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.logo{
+    color:red;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.movies{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:#222;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.card video{
+    width:100%;
+    height:180px;
+}
+
+.card h3{
+    padding:10px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">MYFLIX</div>
+</header>
+
+<div class="movies">
+
+    <div class="card">
+        <video controls>
+            <source src="movie1.mp4" type="video/mp4">
+        </video>
+        <h3>Action Movie</h3>
+    </div>
+
+    <div class="card">
+        <video controls>
+            <source src="series1.mp4" type="video/mp4">
+        </video>
+        <h3>Web Series</h3>
+    </div>
+
+    <div class="card">
+        <video controls>
+            <source src="horror1.mp4" type="video/mp4">
+        </video>
+        <h3>Horror Movie</h3>
+    </div>
+
+</div>
+
+</body>
+</html>
+<source src="https://yourdomain.com/videos/movie1.mp4" type="video/mp4">
